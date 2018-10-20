@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    color: inherit;
+}
+html{
+    background-color: #ffffcc;
+}
+
+a:link, header a:visited {
+    text-decoration: none;
+}
+
+ol{
+    list-style-type: none;
+}
+
+#cabecalho{
+    width: 100%;
+    background-color: #000;
+    height: auto;
+    position: fixed;
+}
+
+#cabecalho a{
+    color: #fff;
+    width: auto;
+}
+
+#cabecalho img{
+    float: right;
+    width: 50px;
+    padding-right: 1%;
+}
+
+img{
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav{
+    height:60px;	
+	background-color:#000;
+}
+
+nav ol{
+	color:#999;
+	text-align:center;
+	font-weight:bold;
+}
+
+nav ol li{
+	float: left;
+	text-align:center;
+	width:25%;
+}
+
+nav ol li a{
+	padding-top: 4%;
+	display: block;
+	height: 56px;
+}
+
+nav ol li a:hover{
+	color:#0000ff;
+	background-color:#fff
+}
+
+main{
+    height: 600px;
+    border: 2px solid;
+    margin: 3%;
+}
+main header h1{
+    text-align: center;
+}
+
+main article{
+    float: left;
+    margin:20px;
+    width: 30%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+main article header{
+    text-align: center;
+}
+
+main article img{
+    max-width: 100%;
+    max-height: 180px;
+}
+
+main article footer p{
+    font-size: 30px;
+    margin-left: 30px;
+    text-align: center;  
+}
+
+#rodape{
+    height: 200px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+}
